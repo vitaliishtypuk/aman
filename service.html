@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="UTF-8">
+	<title>Your site name</title>
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Your site name" />
+	<meta property="og:description" content="Some description text" />
+	<meta property="og:url" content="" />
+	<meta property="og:image" content="img/.png">
+	<meta property="og:image:type" content="image/png">
+	<meta property="og:image:width" content="180"> <!-- size of og:image -->
+	<meta property="og:site_name" content="">
+	<meta name="theme-color" content="#ffffff">
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
+
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:wght@400;700;900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/slick.css" />
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+
+
+<header class="main__header">
+		<div class="main__header_content container">
+			<a href="home.html" class="logo"><img src="img/logo-wide.svg" alt="logo"></a>
+			<nav class="main__nav">
+				<div class="main__nav_overlay"></div>
+				<div class="main__nav_inner">
+					<div class="main__nav_inner_top">
+						<ul class="main__menu clear">
+							<li class="menu-item current-menu-item">
+								<a href="home.html">Home</a>
+							</li>
+							<li class="menu-item menu-item-has-children">
+								<a href="about.html">About</a>
+								<ul class="sub-menu">
+									<li><a href="about.html">About Us</a></li>
+									<li><a href="alphabet.html">Our Members</a></li>
+								</ul>
+							</li>
+							<li class="menu-item">
+								<a href="benefit.html">Membership</a>
+							</li>
+							<li class="menu-item">
+								<a href="faq.html">FAQ</a>
+							</li>
+							<li class="menu-item menu-item-has-children">
+								<a href="brief.html">Legislative Advocacy</a>
+								<ul class="sub-menu">
+									<li><a href="brief.html">New Mexico State Government</a></li>
+									<li><a href="government.html">Federal Government</a></li>
+									<li><a href="leader.html">Write an Elected Official Leader</a></li>
+								</ul>
+							</li>
+							<li class="menu-item menu-item-has-children">
+								<a href="families.html">Resources</a>
+								<ul class="sub-menu">
+									<li><a href="families.html">For Families & Individuals</a></li>
+									<li><a href="organization.html">Organisation and Links</a></li>
+									<li><a href="service.html">Service Provider Directory</a></li>
+								</ul>
+							</li>
+							<li class="menu-item">
+								<a href="contact.html">Contact</a>
+							</li>
+						</ul>
+					</div>
+					<div class="main__nav_inner_bottom">
+						<a href="javascript:void(0);" class="btn btn-smaller">Get in touch</a>
+					</div>
+				</div>
+			</nav>
+			<a href="javascript:void(0);" class="hamburger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</a>
+		</div>
+</header>
+	
+
+<div id="sub__main">
+
+
+	<section class="two__sides_segment service">
+		<div class="two__sides_segment_content container">
+			<h2 class="section__title text-center">Service Provider Directory</h2>
+			<div class="two__sides_segment_content_columns">
+				<div class="two__sides_segment_content_column">
+					<p>If you are looking for a disability service provider in Arizona, we’re here to help. Our diverse group of members provide quality, specialized disability services and understand the unique needs of those they serve.</p>
+					<p>You can search our service provider directory by service type or county to find which providers offer the services you’re looking for in your area.</p>
+				</div>
+				<div class="two__sides_segment_content_column">
+					<p>Need help understanding the different types of services? Visit the <a href="javascript:void(0);">Resources</a> section of our website. You’ll also find a list of frequently asked questions and definitions to commonly used <a href="javascript:void(0);">Terms and Acronyms</a>.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	
+	<section class="filters__segment">
+		<div class="filters__segment_content">
+			<div class="filters__segment_content_header">
+				<form action="" class="filters__form">
+					<div class="filter__field">
+						<label for="service__type">Service Type</label>
+						<select name="" id="service__type">
+							<option value="Community Based Day Programm">Community Based Day Programm</option>
+							<option value="Option 2">Option 2</option>
+							<option value="Option 3">Option 3</option>
+							<option value="Option 4">Option 4</option>
+						</select>
+					</div>
+					<div class="filter__field">
+						<label for="country">Country</label>
+						<select name="" id="country">
+							<option value="Community Based Day Programm">Maricopa</option>
+							<option value="Option 2">Option 2</option>
+							<option value="Option 3">Option 3</option>
+							<option value="Option 4">Option 4</option>
+						</select>
+					</div>
+					<div class="submit__wrapper">
+						<button type="submit" class="btn">Find Providers</button>
+					</div>
+				</form>
+			</div>
+			<div class="filters__segment_content_body">
+				<div class="table__wrapper">
+					<table>
+						<thead>
+							<tr>
+								<th>ID</th>
+								<th>Provider</th>
+								<th>Service Type</th>
+								<th>Phone Number</th>
+								<th>Country</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1.</td>
+								<td><a href="javascript:void(0);">New Horizons</a></td>
+								<td>Horizon Health and Wellness</td>
+								<td><a href="tel:+6024745533">602-474-5533</a></td>
+								<td>Maricopa</td>
+							</tr>
+							<tr>
+								<td>2.</td>
+								<td><a href="javascript:void(0);">New Horizons</a></td>
+								<td>The Tungland Corporation</td>
+								<td><a href="tel:+6024745533">602-474-5533</a></td>
+								<td>Maricopa</td>
+							</tr>
+							<tr>
+								<td>3.</td>
+								<td><a href="javascript:void(0);">ACHIEVE Human Services</a></td>
+								<td>Horizon Health and Wellness</td>
+								<td><a href="tel:+6024745533">602-474-5533</a></td>
+								<td>Maricopa</td>
+							</tr>
+							<tr>
+								<td>4.</td>
+								<td><a href="javascript:void(0);">ACHIEVE Human Services</a></td>
+								<td>Upward For Children and Families</td>
+								<td><a href="tel:+6024745533">602-474-5533</a></td>
+								<td>Maricopa</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="cards__segment alt">
+		<div class="cards__segment_top">
+			<div class="cards__segment_title container text-center">
+				<h2 class="section__title">Our Partners</h2>
+				<p>NMAPPD proudly presents our Partners.</p>
+			</div>
+		</div>
+		<div class="cards__segment_bottom container">
+			<div class="cards__grid">
+				<div class="cards__grid_column">
+					<div class="card__item alt">
+						<a href="javascript:void(0);" class="card__item_link"></a>
+						<div class="card__item_inner">
+							<img src="img/card-logo.png" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="cards__grid_column">
+					<div class="card__item alt">
+						<a href="javascript:void(0);" class="card__item_link"></a>
+						<div class="card__item_inner">
+							<img src="img/card-logo.png" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="cards__grid_column">
+					<div class="card__item alt">
+						<a href="javascript:void(0);" class="card__item_link"></a>
+						<div class="card__item_inner">
+							<img src="img/card-logo.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+
+
+</div>
+
+<footer class="main__footer">
+	<div class="main__footer_content container">
+		<div class="main__footer_content_top">
+			<div class="main__footer_logo_wrapper">
+				<a href="javascript:void(0);" class="logo">
+					<img src="img/logo-wide.svg" alt="logo">
+				</a>
+			</div>
+
+			<div class="footer__menus">
+
+				<div class="footer__menu">
+					<h5 class="footer__menu_title">Menu</h5>
+					<ul class="footer__menu_list clear">
+						<li><a href="about.html">About Us </a></li>
+						<li><a href="benefit.html">Membership</a></li>
+						<li><a href="faq.html">FAQ</a></li>
+						<li><a href="brief.html">Legislative Advocacy</a></li>
+						<li><a href="families.html">Resources</a></li>
+						<li><a href="javascript:void(0);">Terms and Privacy Policy</a></li>
+					</ul>
+				</div>
+
+				<div class="footer__menu">
+					<h5 class="footer__menu_title">Contact</h5>
+					<ul class="footer__menu_list clear">
+						<li><a href="javascript:void(0);">8910 New Mexico Association <br/> Suite 620 New Mexico, NM 92102</a></li>
+						<li><a href="tel:+8584906910">Phone 858-490-6910</a></li>
+						<li>Fax 858-490-6985</li>
+					</ul>
+				</div>
+
+			</div>
+
+			<ul class="socials clear">
+				<li>
+					<a href="javascript:void(0);" class="tw">
+						<img src="img/tw-icon.svg" alt="twitter">
+					</a>
+				</li>
+				<li>
+					<a href="javascript:void(0);" class="fb">
+						<img src="img/fb-icon.svg" alt="facebook">
+					</a>
+				</li>
+			</ul>
+
+		</div>
+		<div class="main__footer_content_bottom">
+			<div class="main__footer_content_bottom_left">
+				<p class="copy">Copyrignt &copy; 2021 NMAPPD All rights reserved.</p>
+				<ul class="ppts clear">
+					<li><a href="javascript:void(0);">Privacy Policy</a></li>
+					<li><a href="javascript:void(0);">Terms of Service</a></li>
+				</ul>
+			</div>
+			<div class="main__footer_content_bottom_right">
+				<div class="autor"><span>Created by:</span> <a href="https://amen.team/" target="_blank"><img src="img/amen-logo.svg" alt="amen"></a></div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/custom.js"></script>
+</body>
+</html>
